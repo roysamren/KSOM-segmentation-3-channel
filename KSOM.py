@@ -1,14 +1,14 @@
-
-
 import os 
 import numpy as np
 import numpy
 import glob
 import pandas as pd
-
+#height and width of grid
 h = int(input("Enter the grid height"))
 W = int(input("Enter the grid width"))
+#no of iteration
 n_iter = int(input("Enter total iterations"))
+#image to be segmented
 img = input("Enter the name of image with extension")
 
 #Converting png images to numpy array and creating dataset for training the network
